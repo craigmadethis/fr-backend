@@ -10,14 +10,13 @@ const parse = require('pg-connection-string').parse;
           user: config.user,
           password: config.password,
     //add this line
-        ssl: {
-          rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
-        },     
+            ssl: {
+              rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
+            },     
       },
       // add this line
       options: {
         ssl: env.bool('DATABASE_SSL', false),
       },
     },
-  },
-);
+  });
