@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_links_socials",
+  "info": {
+    "displayName": "socials",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Instagram": {
+      "type": "string"
+    },
+    "Facebook": {
+      "type": "string"
+    },
+    "YouTube": {
+      "type": "string"
+    },
+    "Tiktok": {
+      "type": "string"
+    },
+    "Twitter": {
+      "type": "string"
+    }
+  }
+}
